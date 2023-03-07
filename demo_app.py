@@ -1,7 +1,7 @@
 import numpy
 import altair as alt
 import pandas as pd 
-import stremlit as st 
+import streamlit as st 
 
 st.header('st.write')
 
