@@ -13,5 +13,5 @@ textColor="#FFFFFF"
 font="monospace"
 """)
 
-number = st.slidebar.slider('Select a number:', 0, 10 , 5)
+number = st.slider('Select a number:', 0, 10 , 5)
 st.write('Selected number from slider widget is:', number)
