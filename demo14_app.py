@@ -28,3 +28,6 @@ firstname = st.experimental_get_query_params()['firstname'][0]
 surname = st.experimental_get_query_params()['surname'][0]
 
 st.write(f'Hello **{firstname} {surname}**, how are you?')
+
+
+# https://vh4170r-streamlit-demo14-app-59yz1s.streamlit.app/?firstname=Jack&surname=Beanstalk
